@@ -1,0 +1,3 @@
+wapm_packages
+*.wasm
+*.lock

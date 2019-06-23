@@ -1,0 +1,14 @@
+[package]
+name = "terasum/hellowasm"
+version = "0.1.0"
+description = "print `hello wasm`"
+repository = "https://github.com/terasum/hellowasm"
+readme = "README.md"
+
+[[module]]
+name = "hellowasm"
+source = "hello_wasm.wasm"
+
+[[command]]
+name = "hellowasm"
+module = "hellowasm"
